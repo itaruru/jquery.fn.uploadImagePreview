@@ -1,0 +1,20 @@
+# disable all
+/*
+ 
+# enable files
+!/.gitignore
+!/.jshintrc
+!/.node-version
+!/CONTRIBUTING.md
+!/Gruntfile.js
+!/HISTORY.md
+!/README.md
+!/boilerplate.jquery.json
+ 
+# enable dirs
+!/demo
+!/src
+ 
+# disable extra files
+
+# disable extra dirs

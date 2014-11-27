@@ -8,10 +8,13 @@
 !/CONTRIBUTING.md
 !/Gruntfile.js
 !/HISTORY.md
+!/package.json
+!/project.sublime-project
 !/README.md
 !/boilerplate.jquery.json
  
 # enable dirs
+!/bin
 !/demo
 !/src
  

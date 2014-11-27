@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "follow_symlinks": true,
+      "path": ".",
+      "folder_exclude_patterns": [
+        "node_modules",
+        "dist"
+      ],
+      "file_exclude_patterns": [
+        ".tags",
+        ".tags_sorted_by_file"
+      ]
+    }
+  ],
+  "build_systems": [
+    {
+      "name": "BuildProject",
+      "shell": true,
+      "cmd": [
+        "${project_path}/bin/update_ctags.sh ${project_path}"
+      ]
+    }
+  ]
+}
